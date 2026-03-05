@@ -1,20 +1,13 @@
-*.joblib
-*.xlsx
-# Ignore datasets
+# data / artifacts
 data/
-
-# Large files
 *.csv
-*.parquet
-*.zip
+*.npz
 *.xlsx
-# Python
+*.joblib
+
+# excel temp
+~$*
+
+# python cache
 __pycache__/
 *.pyc
-
-# Virtual environment
-venv/
-.env
-
-notebooks/
-*.xlsx
