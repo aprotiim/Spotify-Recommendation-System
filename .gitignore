@@ -5,7 +5,7 @@ data/
 *.csv
 *.parquet
 *.zip
-
+*.xlsx
 # Python
 __pycache__/
 *.pyc
@@ -13,3 +13,4 @@ __pycache__/
 # Virtual environment
 venv/
 .env
+*.joblib
