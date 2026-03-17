@@ -34,7 +34,7 @@ transformed_hybrid_data = load_npz(transformed_hybrid_data_path)
 st.title('Welcome to the Spotify Song Recommender!')
 
 # Subheader
-st.write('### Enter the name of a song and the recommender will suggest similar songs 🎵🎧')
+st.write('### Enter the name of a song you like and the recommender will suggest similar songs 🎵🎧')
 
 # Text Input
 song_name = st.text_input('Enter a song name:')
